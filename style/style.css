@@ -1,0 +1,50 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.header {
+	margin: 50px;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+.header__menu {
+	display: flex;
+	justify-content: space-between;
+}
+.header__item {
+	font-size: 20px;
+	color: black;
+	list-style-type: none;
+}
+.header::after {
+  content: '';
+  background-color: black;
+  height: 1px;
+  display: block;
+  margin-top: 50px;
+}
+/* Основной контент*/
+
+.main__title {
+	text-align: center;
+	
+}
+.info-block {
+	margin-top: 15px;
+}
+.main__info-block {
+	display: flex;
+	justify-content: space-between;
+	font-family: Georgia;
+	font-size: 20px;
+	line-height: 30px;
+}
+.main__about {
+	line-height: 30px;
+}
